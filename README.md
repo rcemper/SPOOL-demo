@@ -1,3 +1,12 @@
+ ~~~
+ This is a coding example working on IRIS 2020.1 and on Caché 2018.1.3 
+ It will not be kept in synch with new versions      
+ It is also NOT serviced by InterSystems Support !   
+~~~ 
+
+
+
+
 ## objectscript-package-template
 This is a template for InterSystems ObjectScript class package which is planned to be published into [ZPM registry](https://pm.community.intersystems.com/packages/-/all).
 [Learn more on Community Package Manager (ZPM)](https://community.intersystems.com/post/introducing-intersystems-objectscript-package-manager)
