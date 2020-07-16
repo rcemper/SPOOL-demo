@@ -1,0 +1,32 @@
+SpoolDemo ;Essentials for using SPOOL device in debugging
+   ;
+   ;; if we have no idea on free docId
+New()
+   SET docId=$INCREMENT(^SPOOL)
+   QUIT $$Open(docId)
+   ;
+   ;; we insist in a docId
+Open(docId)
+   DO Clean(docId)
+   OPEN 2:docId
+   USE 2
+   QUIT docId
+   ;
+   ;;continue to write to docId
+App(docId)
+   SET append=$SELECT($ORDER(^SPOOL(docId,""),-1,val):$PIECE(val,"{",*-1),1:0)
+   IF 'append QUIT $$Open(docId)
+   OPEN 2:(docId:append)
+   USE 2
+   QUIT docId
+   ;
+   ;; dump spooled output
+DeSpool(docId)
+   FOR i=1:1 QUIT:'$DATA(^SPOOL(docId,i),val)   WRITE val
+   WRITE !,"*** done ***",!
+   QUIT docId
+   ;
+   ;; clean Spool
+Clean(docId)
+  KILL ^SPOOL(docId)
+  QUIT   
