@@ -4,5 +4,5 @@
  It is also NOT serviced by InterSystems Support !   
 ~~~ 
 
-This is the demo code related to the article in Developer Community
+This is the demo code related to the article in Developer Community   
 [SPOOL - the forgotten device](https://community.intersystems.com/post/spool-forgotten-device)
