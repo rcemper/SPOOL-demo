@@ -5,4 +5,4 @@
 ~~~ 
 
 This is the demo code related to the article in Developer Community
-https://community.intersystems.com/post/spool-forgotten-device
+[SPOOL - the forgotten device](https://community.intersystems.com/post/spool-forgotten-device)
