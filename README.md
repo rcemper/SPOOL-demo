@@ -34,4 +34,9 @@ Open a session in your container
 ```
  docker-compose iris iris session iris
  ```
-Details for testing are described in DC article [SPOOL - the forgotten device](https://community.intersystems.com/post/spool-forgotten-device)
+Details for testing are described in DC article [SPOOL - the forgotten device](https://community.intersystems.com/post/spool-forgotten-device)   
+
+[Demo Server SMP](https://spool-demo.demo.community.intersystems.com/csp/sys/UtilHome.csp)   
+[Demo Server WebTerminal](https://spool-demo.demo.community.intersystems.com/terminal/)    
+        
+**Code Quality** in SCREENSHOTS   
