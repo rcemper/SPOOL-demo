@@ -39,4 +39,5 @@ Details for testing are described in DC article [SPOOL - the forgotten device](h
 [Demo Server SMP](https://spool-demo.demo.community.intersystems.com/csp/sys/UtilHome.csp)   
 [Demo Server WebTerminal](https://spool-demo.demo.community.intersystems.com/terminal/)    
         
-**Code Quality** in SCREENSHOTS   
+**Code Quality**  
+<img width="85%" src="https://openexchange.intersystems.com/mp/img/packages/832/screenshots/ausytijkpg0bozfrapnlakbfyg.jpg">
