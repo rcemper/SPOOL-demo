@@ -15,8 +15,6 @@ close 2
 ```
 Online documentation on [SPOOL](http://docs.intersystems.com/latest/csp/docbook/DocBook.UI.Page.cls?KEY=GIOD_spool) is complete and tells you almost all details.   
 
-This is the demo code related to the article in Developer Community [SPOOL - the forgotten device](https://community.intersystems.com/post/spool-forgotten-device)
-
 ### Prerequisites  
 Make sure you have [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) and [Docker desktop](https://www.docker.com/products/docker-desktop) installed.   
 ### Installation   
