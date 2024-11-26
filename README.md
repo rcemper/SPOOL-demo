@@ -32,4 +32,4 @@ Open a session in your container
 ```
  docker-compose iris iris session iris
  ```
-Details for testing are described in DC article [SPOOL - the forgotten device](https://community.intersystems.com/post/spool-forgotten-device)   
+
