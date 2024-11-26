@@ -32,4 +32,4 @@ Open a session in your container
 ```
  docker-compose iris iris session iris
  ```
-for [detaisls](https://docs.intersystems.com/iris20242/csp/docbook/DocBook.UI.Page.cls?KEY=GIOD_spool#GIOD_spool_open)
+see [details](https://docs.intersystems.com/iris20242/csp/docbook/DocBook.UI.Page.cls?KEY=GIOD_spool#GIOD_spool_open) here
