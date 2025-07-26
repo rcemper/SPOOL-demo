@@ -10,7 +10,7 @@ zn "%SYS"
 do ##class(SYS.Container).QuiesceForBundling()
 Do ##class(Security.Users).UnExpireUserPasswords("*")
 ZN "IRISAPP"
-zpm "install webterminal"
+zpm "install iterm"
 halt
 EOF
 
