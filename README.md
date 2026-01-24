@@ -1,5 +1,7 @@
-## SPOOL Demo
+<img src="https://community.intersystems.com/sites/default/files/inline/images/archived.gif" width=100></img>
+<b>&nbsp;no maintenance or update</b> 
 
+## SPOOL Demo
 SPOOL existed long before IRIS and ObjectScript   
 It is a simple device that allows you to write to the Global ^SPOOL 
 
@@ -22,7 +24,7 @@ Clone/git pull the repo into any local directory
 ```
  git clone https://github.com/rcemper/SPOOL-demo-ZPM.git   
 ```
-Open the terminal in this directory create teh container and run it:   
+Open the terminal in this directory create the container and run it:   
 ```
  docker-compose up -d
 ```
